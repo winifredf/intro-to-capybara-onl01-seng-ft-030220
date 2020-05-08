@@ -3,5 +3,7 @@ class Application < Sinatra::Base
     erb :index
   end
   # Write your code here!
-
+  post '/greet' do
+    erb :greet
+  end
 end
